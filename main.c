@@ -2,7 +2,7 @@
 int main() {
   int khoangcach, giatri, phigiaohang;
   scanf("%d %d", &khoangcach, &giatri);
-  if (khoangcach < 0 || giatri < 0) {
+  if (khoangcach <= 0 || giatri < 0) {
       printf("INVALID\n");
     }
   else {
@@ -10,11 +10,11 @@ int main() {
     phigiaohang=0;
     printf("%d\n", phigiaohang);
   }
-  else if (giatri < 500000 && khoangcach < 5){
+  else if khoangcach <= 5){
     phigiaohang = 15000;
     printf("%d\n", phigiaohang);
   }
-  else if (giatri < 500000 && khoangcach >=6 && khoangcach <= 15){
+  else if (khoangcach <= 15){
     phigiaohang = 25000;
     printf("%d\n", phigiaohang);
   }
