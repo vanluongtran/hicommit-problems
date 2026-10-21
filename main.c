@@ -20,5 +20,6 @@ int main() {
   if (giatri < 500000 && khoangcach < 15){
     phigiaohang = 40000;
     printf("%d", phigiaohang);
+  }
   return 0;
 }
