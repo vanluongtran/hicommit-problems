@@ -1,11 +1,16 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  int a, b, c, solon;
+  if (a>b){
+    solon = a;
+  } else{
+    solon = b;
+  }
+  if (solon > c){
+    printf("%d", solon);
+  } else {
+    printf("%d", c);
+  }
+  return 0;
 }
