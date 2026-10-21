@@ -5,10 +5,10 @@ int main() {
   if (t<15){
     puts("LANH");
   }
-  else if (t >= 15 && t <= 25){
+  else if (t > 15 && t < 25){
         puts("MAT");
   }
-  else if (t > 25 && t <= 35){
+  else if (t > 25 && t < 35){
     puts("NONG");
   }
   
