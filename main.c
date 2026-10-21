@@ -12,7 +12,7 @@ int main() {
   }
   else if (giatri < 500000 && khoangcach < 5){
     phigiaohang = 15000;
-    printf("%dn\n", phigiaohang);
+    printf("%d\n", phigiaohang);
   }
   else if (giatri < 500000 && khoangcach >=5 && khoangcach < 15){
     phigiaohang = 25000;
