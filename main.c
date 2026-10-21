@@ -5,21 +5,23 @@ int main() {
   if (khoangcach <= 0 || giatri <= 0) {
       printf("INVALID\n");
     }
+  else {
   if (giatri >= 500000 && khoangcach < 15){
     phigiaohang=0;
-    printf("%d", phigiaohang);
+    printf("%d\n", phigiaohang);
   }
-  if (giatri < 500000 && khoangcach < 5){
+  else if (giatri < 500000 && khoangcach < 5){
     phigiaohang = 15000;
-    printf("%d", phigiaohang);
+    printf("%dn\n", phigiaohang);
   }
-  if (giatri < 500000 && khoangcach >6 && khoangcach < 15){
+  else if (giatri < 500000 && khoangcach >=5 && khoangcach < 15){
     phigiaohang = 25000;
-    printf("%d", phigiaohang);
+    printf("%d\n", phigiaohang);
   }
-  if (giatri < 500000 && khoangcach < 15){
+  else{
     phigiaohang = 40000;
-    printf("%d", phigiaohang);
+    printf("%d\n", phigiaohang);
+  }
   }
   return 0;
 }
