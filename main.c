@@ -10,7 +10,7 @@ int main() {
     phigiaohang=0;
     printf("%d\n", phigiaohang);
   }
-  else if khoangcach <= 5){
+  else if (khoangcach <= 5){
     phigiaohang = 15000;
     printf("%d\n", phigiaohang);
   }
