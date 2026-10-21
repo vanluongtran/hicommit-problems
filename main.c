@@ -8,7 +8,7 @@ int main() {
   else if (t<=25){
     puts("MAT");
   }
-  else if (t>35){
+  else if (t<=35){
     puts("NONG");
   }
   else{
