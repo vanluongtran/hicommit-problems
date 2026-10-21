@@ -10,7 +10,7 @@ int main() {
     printf("LE"); 
   }
   if (a==0){
-    printf("CHAN")
+    printf("CHAN");
   }
   return 0;
 }
