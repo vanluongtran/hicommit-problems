@@ -8,7 +8,7 @@ int main() {
     printf("MAT");
   }
   if (t>25 && t<35){
-    printf("NONG")
+    printf("NONG");
   }
   if (t<35){
     printf("RAT_NONG");
